@@ -5,7 +5,7 @@ Name Name:
   uri         : "http://name.com"
   email       : "thanhndv212@gmail.com"
   bio         : "Linear Regression "abuser""
-  avatar      : "voyager1.jpeg"
+  avatar      : #"images/voyager1.jpeg"
   twitter     : "name"
   google_plus : "Name"
 
