@@ -21,7 +21,7 @@ repository               : "thanhndv212/thanhndv212.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "voyager1.jpeg"
+  avatar           : "images/voyager1.jpeg"
   name             : "Thanh Nguyen"
   pronouns         : # example: "she/her"  
   bio              : "Linear Regression "abuser""
