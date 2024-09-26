@@ -1,11 +1,16 @@
-- name: University of Washington 
+- name: INSA Toulouse
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph. D in Robotics, advised by <a href="https://florent.lamiraux@laas.fr/">Florent Lamiraux</a> and
+    <a href="https://vincent.bonnet@laas.fr/">Vincent Bonnet</a>.<br />
+    Supported by CIFRE contract 2021-2024 (by [TOWARD](https://toward.fr/)).
+  dates: Fall 2021 - Present
 
-- name: University of Illinois at Urbana-Champaign
+- name: Ecole Centrale de Nantes
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    M. S. in Control and Robotics, specialization in Advanced Robotics.
+  dates: Fall 2019 - Spring 2021
+
+- name: Korea Advanced Institute of Science and Technology (KAIST)
+  description: >-
+    B. S. in Mechanical Engineering
+  dates: Fall 2015 - Spring 2019
