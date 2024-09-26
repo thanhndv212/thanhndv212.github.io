@@ -3,7 +3,7 @@
   venue: Humanoids, 2024
   description: "A Python toolbox for dynamic identification and geometric calibration of robots and humans."
   project_page: https://ieeexplore.ieee.org/abstract/document/10375232
-  pdf: hal-04234676v2
+  pdf: https://hal.science/hal-04234676v2
   github: thanhndv212/figaroh-plus
   image: 
   image_mouseover: 
