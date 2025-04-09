@@ -1,8 +1,8 @@
 - id: figaroh
   title: "FIGAROH: a Python toolbox for dynamic identification and geometric calibration of robots and humans"
-  venue: Humanoids, 2024
-  description: "A Python toolbox for dynamic identification and geometric calibration of robots and humans."
-  project_page: https://ieeexplore.ieee.org/abstract/document/10375232
+  venue: Humanoids, 2023 - Austin, Texas
+  description: "The accuracy of the geometric and dynamic models for robots and humans is crucial for simulation, control, and motion analysis. For example, joint torque, which is a function of geometric and dynamic parameters, is a critical variable that heavily impacts the performance of model-based control, or that can motivate a clinical decision after a biomechanical analysis. Fortunately, these models can be identified using extensiveworks from literature. However, for a non-expert, building an identification model and designing an experimentation plan,which should not require long hours and/or lead to poor results, is not a trivial task, especially for anthropometric structuressuch as humanoids or humans that need frequent update. In this work, we propose a unified framework for geometric calibration and dynamic identification in the form of a Python open-source toolbox. Besides identification model building and data processing, the toolbox can automatically generate exciting postures and motions to minimize the experimental burden from the robot, measurements, and environment description.The possibilities of this toolbox are exemplified with several datasets of human, humanoid, and serial robots."
+  project_page: https://thanhndv212.github.io/figaroh-plus/
   pdf: https://hal.science/hal-04234676v2
   github: thanhndv212/figaroh-plus
   image: 
@@ -12,5 +12,19 @@
     - vincent.bonnet
     - maxime.sabbah
     - maxime.gautier
+    - pierre.fernbach
+    - florent.lamiraux
+- id: tiago-humanoid
+  title: "Improving Operational Accuracy of a Mobile Manipulator by Modeling Geometric and Non-Geometric Parameters"
+  venue: Humanoids, 2024 - Nancy, France
+  description: "This paper aims to address two intrinsic phenomena encountered in mobile manipulator robots, but often neglected, with the objective of improving the overall accuracy of end-effector pose estimation. Firstly, after performing state-of-the-art geometric calibration of the arm, we propose two identifiable mathematical models to account for non-geometric effects: a model for the mobile base suspension system and a model of non-linear inaccuracies of joint angles estimates. The latter is due to backlash and misaligned encoders mounting. Then, the proposed models were experimentally validated on the mobile manipulator TIAGo using a stereophotogrammetric system. Overall, the end-effector pose accuracy was improved by 60% when compared to the nominal manufacturer model, with root mean square errors (RMSE) of 5.7 mm and 2.7 deg for positional and orientational errors, respectively."
+  project_page: https://ieeexplore.ieee.org/abstract/document/10769790
+  pdf: https://ieeexplore.ieee.org/abstract/document/10769790
+  github: thanhndv212/figaroh-plus
+  image: 
+  image_mouseover: 
+  authors:
+    - thanhndv212
+    - vincent.bonnet
     - pierre.fernbach
     - florent.lamiraux
