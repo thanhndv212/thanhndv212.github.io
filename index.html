@@ -73,6 +73,11 @@ layout: null
                 <span class="icon"><i class="fab fa-twitter"></i></span>
                 <span>Twitter</span>
               </a>
+
+              <a class="external-link button is-light" href="/blog">
+                <span class="icon"><i class="fas fa-blog"></i></span>
+                <span>Blog</span>
+              </a>
             </div>
 
           </div>
@@ -81,7 +86,7 @@ layout: null
     </div>
   </section>
 
-  <!-- News. -->
+  <!-- Blog Posts -->
   <div class="hr">
     <div class="container">
       <hr>
@@ -90,17 +95,37 @@ layout: null
 
   <section class="section">
     <div class="container is-max-desktop">
-
-      <!--<h2 class="title is-3">News</h2>
+      <h2 class="title is-3">Recent Blog Posts</h2>
       <div class="content">
-        <ul>
-          {% for news in site.data.news %}
-          <li>
-            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>-->
+        {% for post in site.posts limit:3 %}
+        <div class="blog-post-preview">
+          <h3 class="title is-4">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <p class="subtitle is-6">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.excerpt }}</p>
+        </div>
+        {% endfor %}
+        
+        <div class="buttons">
+          <a class="button is-light" href="/blog">
+            <span>View All Posts</span>
+            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
 
       <h2 class="title is-3">Publications</h2>
 

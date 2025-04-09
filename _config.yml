@@ -38,8 +38,10 @@ google_analytics:
 
 # Build settings
 theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 
 sass:
   style: compact
@@ -61,12 +63,13 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
