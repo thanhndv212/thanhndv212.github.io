@@ -4,9 +4,6 @@ title: "How Robots Move: Inside the World of Actuators and Motion Modeling"
 date: 2024-01-15
 categories: Design and modeling
 ---
-Actuators are the muscles of robots — the components that enable motion and interaction with the environment. Whether it’s a robotic arm assembling electronics, a humanoid walking, or a drone flying through a warehouse, actuation systems are at the heart of robotic function. In this post, we explore two fundamental actuation technologies: **electric motors** and **hydraulic actuators**, along with the **transmission mechanisms** that link them to joints, and the **modeling techniques** used to simulate and control their behavior.
-
----
 
 ## 🧭 Content Outline
 
@@ -16,13 +13,14 @@ Actuators are the muscles of robots — the components that enable motion and in
    - Gear-based Drives (Harmonic, Cycloidal, Planetary)  
    - Cable, Belt, Chain  
    - Compliant Mechanisms (SEAs)  
-   - **Quasi-Direct Drive (QDD)**  
+   - Quasi-Direct Drive (QDD)  
 4. [Actuator Modeling](#4-actuator-modeling-for-control-and-simulation)  
 5. [Electric vs Hydraulic Comparison](#5-electric-vs-hydraulic--summary)  
 6. [Conclusion](#6-conclusion)  
 7. [References](#-references--further-reading)
 
-
+---
+Actuators are the muscles of robots — the components that enable motion and interaction with the environment. Whether it’s a robotic arm assembling electronics, a humanoid walking, or a drone flying through a warehouse, actuation systems are at the heart of robotic function. In this post, we explore two fundamental actuation technologies: **electric motors** and **hydraulic actuators**, along with the **transmission mechanisms** that link them to joints, and the **modeling techniques** used to simulate and control their behavior.
 
 ---
 
