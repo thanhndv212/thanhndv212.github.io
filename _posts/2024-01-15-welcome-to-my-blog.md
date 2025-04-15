@@ -92,6 +92,12 @@ Transmissions connect actuators to joints and allow for torque amplification, sp
 #### 🔩 Compliant Transmissions
 - **Series Elastic Actuators (SEAs)**: Add spring elements to absorb impact, ideal for safe interaction.
 
+#### ⚡ Quasi-Direct Drive (QDD)
+- Uses high-torque, low-gear-ratio motors to reduce mechanical complexity.
+- Provides high backdrivability and force transparency.
+- Increasingly used in legged robots, exoskeletons, and soft robotic systems.
+- Strikes a balance between direct drive and geared systems, offering improved safety and force control.
+
 ### Cycloidal Drives Deep Dive
 Cycloidal gearboxes offer:
 - High torque density.
@@ -107,12 +113,15 @@ Cycloidal gearboxes offer:
 | Planetary Gears     | Medium    | Medium   | Medium          | High   | Low         |
 | Cycloidal Drive     | High      | Very Low | High            | High   | Medium      |
 | Cable Systems       | Low       | High     | Low             | Low    | High        |
+| Quasi-Direct Drive  | High      | Very Low | Medium-High     | Medium | Low         |
 
 ### Key Suppliers
 - [Harmonic Drive](https://www.harmonicdrive.net/)
 - [Nabtesco](https://www.nabtesco.de/en/technology/cycloidal-gears)
 - [Tallman Robotics](https://www.tallman-robotics.com/cycloidal-gears/)
 - [HVH Industrial](https://hvhindustrial.com/sub-category/robotics-gear-reducers/18256)
+- [Dephy Inc. (QDD Systems)](https://www.dephy.com/technology/)
+- [MIT Cheetah Robot (QDD Research)](http://biomimetics.mit.edu/)
 
 ---
 
@@ -186,7 +195,7 @@ Where $k$ is the spring constant.
 
 ## 6. Conclusion
 
-Selecting the right actuator and transmission system is essential to robotic performance, efficiency, and safety. Electric motors offer precision and control, while hydraulic actuators bring raw power for demanding tasks. Transmission design — from harmonic to cycloidal — bridges the gap between actuator capabilities and robotic function.
+Selecting the right actuator and transmission system is essential to robotic performance, efficiency, and safety. Electric motors offer precision and control, while hydraulic actuators bring raw power for demanding tasks. Transmission design — from harmonic to cycloidal to quasi-direct drive — bridges the gap between actuator capabilities and robotic function.
 
 By accurately modeling actuators, roboticists can develop sophisticated control strategies and simulations that save time, reduce cost, and increase reliability.
 
@@ -199,6 +208,8 @@ By accurately modeling actuators, roboticists can develop sophisticated control 
 - [Boston Dynamics - Hydraulic Actuation](https://www.bostondynamics.com/)
 - [MATLAB Simscape for Robotics](https://www.mathworks.com/products/simscape.html)
 - [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim)
+- [Dephy QDD Technology](https://www.dephy.com/technology/)
+- [MIT Biomimetic Robotics Lab](http://biomimetics.mit.edu/)
 
 ---
 
