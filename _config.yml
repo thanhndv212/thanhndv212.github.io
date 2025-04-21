@@ -42,11 +42,11 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  parse_block_html: true
   
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+  - jekyll-seo-tag
 
 sass:
   style: compact
