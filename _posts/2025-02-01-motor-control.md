@@ -47,14 +47,14 @@ Encoders are sensors that convert the position or speed of a rotating shaft into
 ### c. Encoder Technologies
 - **Optical Encoders**: Use a disk with transparent/opaque segments. High resolution but sensitive to dust.
 Optical Incremental Encoder [Mekre 2022]
-![Optical Incremental Encoder](images/optical_incremental.png)
+![Optical Incremental Encoder]({{ site.baseurl }}/assets/images/posts/optical_incremental.png)
 
 - **Magnetic Encoders**: Use Hall effect or magnetoresistive sensors. More robust but often lower resolution.
 Magnetic Incremental Encoder [Mekre 2022]
-![Magnetic Incremental Encoder](images/magnetic_incremental.png)
+![Magnetic Incremental Encoder]({{ site.baseurl }}/assets/images/posts/magnetic_incremental.png)
 - **Capacitive Encoders**: Emerging technology, low power, high noise immunity.
 Capacitive Encoder 
-![Capacitive Encoder](images/capacitive_encoder.avif)
+![Capacitive Encoder]({{ site.baseurl }}/assets/images/posts/capacitive_encoder.avif)
 ### d. Key Specifications
 - **CPR/PPR (Counts or Pulses per Revolution)**: Determines angular resolution.
 - **Latency**: Affects responsiveness. Lower is better.

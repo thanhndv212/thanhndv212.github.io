@@ -14,6 +14,70 @@
   margin-bottom: 1rem;
 }
 
+/* Blog post styles */
+.post {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.post-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.post-content h1 {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h2 {
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-content p {
+  margin-bottom: 1.2rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-content ul, .post-content ol {
+  margin-left: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
 /* Footnote styles */
 .footnotes {
   margin-top: 2rem;
