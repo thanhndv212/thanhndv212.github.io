@@ -4,7 +4,6 @@ title: "Low-Level Motor Control in Robotics: Encoders, Drivers, and Control Stra
 date: 2025-02-01
 categories: Design and modeling
 ---
-# Mastering Motor Control in Robotics: From Low to High Level
 
 Precise, stable motion is at the heart of effective robotic systems, and that precision begins at the motor level. In this post, we explore the building blocks of low-level control: from how motors are sensed and driven to the algorithms that govern their behavior. This is essential knowledge for anyone building robots that must interact precisely and robustly with the real world.
 
