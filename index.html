@@ -53,7 +53,7 @@ layout: null
           <div class="content has-text-justified">
             {{ site.description | markdownify }}
             <div class="buttons">
-              <a class="external-link button is-light" href="cv.html">
+              <a class="external-link button is-light" href="{{ site.url }}/assets/pdf/cv.pdf">
                 <span class="icon"><i class="fas fa-file"></i></span>
                 <span>CV</span>
               </a>
@@ -74,7 +74,7 @@ layout: null
                 <span>Twitter</span>
               </a>
 
-              <a class="external-link button is-light" href="/blog">
+              <a class="external-link button is-light" href="{{ '/blog' | relative_url }}">
                 <span class="icon"><i class="fas fa-blog"></i></span>
                 <span>Blog</span>
               </a>
@@ -316,7 +316,7 @@ layout: null
         <div class="column is-8">
           <div class="content">
             <p>
-              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+              Feel free to <a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io">borrow this template</a>.
             </p>
           </div>
         </div>

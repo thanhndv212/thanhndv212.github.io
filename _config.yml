@@ -60,6 +60,19 @@ collections:
     output: true
     permalink: /blog/:year/:month/:day/:title/
 
+# Include additional files and directories
+include:
+  - assets
+  - assets/pdf
+  - "*.pdf"
+  - .htaccess
+
+defaults:
+  - scope:
+      path: "assets/pdf"
+    values:
+      pdf: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
