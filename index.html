@@ -136,37 +136,6 @@ layout: null
     </div>
   </section>
   
-  <!-- Blog Posts -->
-  <div class="hr">
-    <div class="container">
-      <hr>
-    </div>
-  </div>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Recent Blog Posts</h2>
-      <div class="content">
-        {% for post in site.posts limit:3 %}
-        <div class="blog-post-preview">
-          <h3 class="title is-4">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <p class="subtitle is-6">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p>{{ post.excerpt }}</p>
-        </div>
-        {% endfor %}
-        
-        <div class="buttons">
-          <a class="button is-light" href="/blog">
-            <span>View All Posts</span>
-            <span class="icon"><i class="fas fa-arrow-right"></i></span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Publications -->
   <div class="hr">
     <div class="container">
@@ -249,7 +218,7 @@ layout: null
     </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Blog Posts -->
   <div class="hr">
     <div class="container">
       <hr>
@@ -258,46 +227,28 @@ layout: null
 
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3">Projects</h2>
-
-      {% for project in site.data.projects %}
-      <div class="publication-block columns">
-        <div class="column is-2">
-          <div class="publication-image">
-            <img alt="{{ project.title }}" src="./images/{{ project.image }}" />
-          </div>
+      <h2 class="title is-3">Recent Blog Posts</h2>
+      <div class="content">
+        {% for post in site.posts limit:3 %}
+        <div class="blog-post-preview">
+          <h3 class="title is-4">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <p class="subtitle is-6">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.excerpt }}</p>
         </div>
-
-        <div class="column">
-          <div class="content">
-            <h3 class="publication-title">
-              <a href="{{ project.link }}">{{ project.title }}</a>
-            </h3>
-            <div class="publication-venue">
-              <span>{{ project.date }}</span>
-            </div>
-            <p class="publication-description">{{ project.description }}</p>
-            <!-- Project Links -->
-            <div class="publication-links buttons field has-addons">
-              {% if project.github %}
-              <a class="external-link button is-small is-ghost" href="https://github.com/{{ project.github }}">
-                <span class="icon"><i class="fab fa-github"></i></span>
-                <span>Code</span>
-              </a>
-              {% endif %}
-              {% if project.demo %}
-              <a class="external-link button is-small is-ghost" href="{{ project.demo }}">
-                <span class="icon"><i class="fas fa-globe-asia"></i></span>
-                <span>Demo</span>
-              </a>
-              {% endif %}
-            </div>
-          </div>
+        {% endfor %}
+        
+        <div class="buttons">
+          <a class="button is-light" href="/blog">
+            <span>View All Posts</span>
+            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+          </a>
         </div>
       </div>
-      {% endfor %}
     </div>
   </section>
+
 
   <footer class="footer">
     <div class="container">
