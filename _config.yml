@@ -23,11 +23,14 @@ name: Thanh D. V. Nguyen
 position: PhD candidate
 email: thanhndv212@gmail.com
 description: >-
-  I am interested in robotics, particularly in the field of modeling, system ID, model related applications.
-
-  I obtained a Ph.D in Dec, 2024 at [LAAS-CNRS](https://www.laas.fr/en/home), where I was advised by <a href="https://www.laas.fr/en/annuaire/132">Florent Lamiraux</a> and <a href="https://www.laas.fr/en/annuaire/398">Vincent Bonnet</a>.<br /> and supported by CIFRE contract 2021-2024 (by [TOWARD](https://toward.fr/) - now [Pal France](https://pal-robotics.com/)).
-
-  I occasionally write about my research and other topics on this blog. 
+  I am a robotics researcher based in Paris, France. I obtained a Ph.D in Dec, 2024 at [LAAS-CNRS](https://www.laas.fr/en/home), where I was advised by <a href="https://www.laas.fr/en/annuaire/132">Florent Lamiraux</a> and <a href="https://www.laas.fr/en/annuaire/398">Vincent Bonnet</a> and supported by CIFRE contract 2021-2024 (by [TOWARD](https://toward.fr/) - now [Pal France](https://pal-robotics.com/)).
+  My research interests include:
+  - Robot modeling
+  - System identification
+  - Robot control
+  - Reinforcement learning
+  - DIY robotics
+  I occasionally write about my research and personal projects on this blog. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thanhndv212.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
