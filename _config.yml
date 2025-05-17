@@ -33,7 +33,7 @@ description: >-
   I occasionally write about my research and personal projects on this blog. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thanhndv212.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+linkedin_username: in/thanh-nguyen-55b626117/
 github_username: thanhndv212
 google_scholar: J8DBBA4AAAAJ
 google_analytics: 
