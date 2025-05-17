@@ -2,7 +2,7 @@
   title: "FIGAROH: a Python toolbox for dynamic identification and geometric calibration of robots and humans"
   venue: Humanoids, 2023 - Austin, Texas
   description: "The accuracy of the geometric and dynamic models for robots and humans is crucial for simulation, control, and motion analysis. For example, joint torque, which is a function of geometric and dynamic parameters, is a critical variable that heavily impacts the performance of model-based control, or that can motivate a clinical decision after a biomechanical analysis. Fortunately, these models can be identified using extensiveworks from literature. However, for a non-expert, building an identification model and designing an experimentation plan,which should not require long hours and/or lead to poor results, is not a trivial task, especially for anthropometric structuressuch as humanoids or humans that need frequent update. In this work, we propose a unified framework for geometric calibration and dynamic identification in the form of a Python open-source toolbox. Besides identification model building and data processing, the toolbox can automatically generate exciting postures and motions to minimize the experimental burden from the robot, measurements, and environment description.The possibilities of this toolbox are exemplified with several datasets of human, humanoid, and serial robots."
-  project_page: https://thanhndv212.github.io/figaroh-plus/
+  project_page: https://thanhndv212.github.io/figaroh-plus-webpage/
   pdf: https://hal.science/hal-04234676v2
   github: thanhndv212/figaroh-plus
   image: figaroh_flowchart.png
