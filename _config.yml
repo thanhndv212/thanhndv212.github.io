@@ -39,7 +39,7 @@ google_scholar: J8DBBA4AAAAJ
 google_analytics: 
 
 # Build settings
-theme: bulma-clean-theme
+theme: minima
 markdown: kramdown
 kramdown:
   input: GFM
