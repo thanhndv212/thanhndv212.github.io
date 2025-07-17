@@ -1,5 +1,3 @@
-// ...existing code...
-
 /* Blog section styles */
 .blog-post-preview {
   margin-bottom: 2rem;
@@ -12,6 +10,23 @@
 .blog-post-preview .subtitle {
   color: #666;
   margin-bottom: 1rem;
+}
+
+.blog-post-image {
+  border-radius: 8px;
+  overflow: hidden;
+  height: 150px;
+}
+
+.blog-post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-post-image:hover img {
+  transform: scale(1.05);
 }
 
 /* Blog post styles */

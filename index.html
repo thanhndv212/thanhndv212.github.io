@@ -230,12 +230,23 @@ layout: null
       <h2 class="title is-3">Recent Blog Posts</h2>
       <div class="content">
         {% for post in site.posts limit:3 %}
-        <div class="blog-post-preview">
-          <h3 class="title is-4">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <p class="subtitle is-6">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p>{{ post.excerpt }}</p>
+        <div class="blog-post-preview columns">
+          <div class="column is-3">
+            <div class="blog-post-image">
+              {% if post.image %}
+              <img alt="{{ post.title }}" src="{{ post.image | relative_url }}" />
+              {% else %}
+              <img alt="{{ post.title }}" src="{{ '/images/robot_logo.png' | relative_url }}" />
+              {% endif %}
+            </div>
+          </div>
+          <div class="column is-9">
+            <h3 class="title is-4">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <p class="subtitle is-6">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p>{{ post.excerpt }}</p>
+          </div>
         </div>
         {% endfor %}
         
