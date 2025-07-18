@@ -1,3 +1,18 @@
+- id: figaroh
+  title: "Humanoid Robot Whole-body Geometric Calibration with Embedded Sensors and a Single Plane"
+  venue: 
+  description: "Whole-body geometric calibration of humanoid robots using classical robot calibration methods is a time-consuming and experimentally burdensome task. However, despite its significance for accurate control and simulation, it is often overlooked in the humanoid robotics community. To address this issue, we propose a novel practical method that utilizes a single plane, embedded force sensors, and an admittance controller to calibrate the whole-body kinematics of humanoids without requiring manual intervention. Given the complexity of humanoid robots, it is crucial to generate and determine a minimal set of optimal calibration postures. To do so, we propose a new algorithm called IROC (Information Ranking algorithm for selecting Optimal Calibration postures). IROC requires a pool of feasible candidate postures to build a normalized weighted information matrix for each posture. Then, contrary to other algorithms from the literature, IROC will determine the minimal number of optimal postures that are to be played onto a robot for its calibration. Both IROC and the single-plane calibration method were experimentally validated on a TALOS humanoid robot. The total whole-body kinematics chain was calibrated using solely 31 optimal postures with 3-point contacts on a table by the robot gripper. In a cross-validation experiment, the average RMS error was reduced by a factor of 2.3 compared to the manufacturer’s model."
+  project_page: https://thanhndv212.github.io/talos-calibration-webpage/
+  pdf: https://laas.hal.science/view/index/docid/5169055
+  github: thanhndv212/figaroh-plus
+  image: talos_calib.png
+  image_mouseover: 
+  authors:
+    - thanhndv212
+    - vincent.bonnet
+    - pierre.fernbach
+    - david.daney
+    - florent.lamiraux
 - id: tiago-humanoid
   title: "Improving Operational Accuracy of a Mobile Manipulator by Modeling Geometric and Non-Geometric Parameters"
   venue: 2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids) - Nancy, France
@@ -28,3 +43,16 @@
     - maxime.gautier
     - pierre.fernbach
     - florent.lamiraux
+- id: TSA
+  title: "Non-cylindrical wrapping rods and compliant adapters for multi-mode twisting string actuation"
+  venue: International Journal of Mechanisms and Robotic Systems 5 (1-2), 93-110
+  description: "In this paper, improvements of the basic twisting string actuation commonly found in the literature are demonstrated based on the addition of two types of passive elements in order to optimise mechanical efficiency. First, the motion speed is increased with non-cylindrical rigid wrapping. Secondly, passive compliant load adjusters are added to improve the overall mechanical advantage of the transmission in reaction to varying loads. A mathematical model of the new system is first detailed in the paper and provides numerical simulations subsequently validated with experimental results. The impact on the important characteristics of the transmission of the design parameters are shown in details and the simulations highlight several improvements of our proposed design compared to existing twisting wire systems. Finally, this novel transmission with a compliant adjuster is used to drive an underactuated robotic finger to demonstrate its effectiveness."
+  project_page: https://www.inderscienceonline.com/doi/abs/10.1504/IJMRS.2021.115156
+  pdf: https://www.inderscienceonline.com/doi/abs/10.1504/IJMRS.2021.115156
+  github: 
+  image: figaroh_flowchart.png
+  image_mouseover: twisting_string_actuator.png
+  authors:
+    - nicolas.mouaze
+    - thanhndv212
+    - lionel.birglen
