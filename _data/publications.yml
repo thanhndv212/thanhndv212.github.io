@@ -1,7 +1,7 @@
 - id: figaroh
   title: "Humanoid Robot Whole-body Geometric Calibration with Embedded Sensors and a Single Plane"
   venue: 
-  description: "Whole-body geometric calibration of humanoid robots using classical robot calibration methods is a time-consuming and experimentally burdensome task. However, despite its significance for accurate control and simulation, it is often overlooked in the humanoid robotics community. To address this issue, we propose a novel practical method that utilizes a single plane, embedded force sensors, and an admittance controller to calibrate the whole-body kinematics of humanoids without requiring manual intervention. Given the complexity of humanoid robots, it is crucial to generate and determine a minimal set of optimal calibration postures. To do so, we propose a new algorithm called IROC (Information Ranking algorithm for selecting Optimal Calibration postures). IROC requires a pool of feasible candidate postures to build a normalized weighted information matrix for each posture. Then, contrary to other algorithms from the literature, IROC will determine the minimal number of optimal postures that are to be played onto a robot for its calibration. Both IROC and the single-plane calibration method were experimentally validated on a TALOS humanoid robot. The total whole-body kinematics chain was calibrated using solely 31 optimal postures with 3-point contacts on a table by the robot gripper. In a cross-validation experiment, the average RMS error was reduced by a factor of 2.3 compared to the manufacturer’s model."
+  description: "This paper presents a novel method for whole-body geometric calibration of humanoid robots using a single plane, embedded sensors, and an admittance controller, introducing the IROC algorithm for optimal posture selection that achieved 2.3x accuracy improvement on the TALOS robot."
   project_page: https://thanhndv212.github.io/talos-calibration-webpage/
   pdf: https://laas.hal.science/view/index/docid/5169055
   github: thanhndv212/figaroh-plus
@@ -16,7 +16,7 @@
 - id: tiago-humanoid
   title: "Improving Operational Accuracy of a Mobile Manipulator by Modeling Geometric and Non-Geometric Parameters"
   venue: 2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids) - Nancy, France
-  description: "This paper aims to address two intrinsic phenomena encountered in mobile manipulator robots, but often neglected, with the objective of improving the overall accuracy of end-effector pose estimation. Firstly, after performing state-of-the-art geometric calibration of the arm, we propose two identifiable mathematical models to account for non-geometric effects: a model for the mobile base suspension system and a model of non-linear inaccuracies of joint angles estimates. The latter is due to backlash and misaligned encoders mounting. Then, the proposed models were experimentally validated on the mobile manipulator TIAGo using a stereophotogrammetric system. Overall, the end-effector pose accuracy was improved by 60% when compared to the nominal manufacturer model, with root mean square errors (RMSE) of 5.7 mm and 2.7 deg for positional and orientational errors, respectively."
+  description: "This paper improves mobile manipulator accuracy by modeling geometric and non-geometric parameters including base suspension and joint backlash, achieving 60% better end-effector pose estimation on the TIAGo robot."
   project_page: https://thanhndv212.github.io/tiago-calibration-webpage/
   pdf: https://ieeexplore.ieee.org/abstract/document/10769790
   github: thanhndv212/figaroh-plus
@@ -30,7 +30,7 @@
 - id: figaroh
   title: "FIGAROH: a Python toolbox for dynamic identification and geometric calibration of robots and humans"
   venue: 2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids) - Austin, Texas
-  description: "The accuracy of the geometric and dynamic models for robots and humans is crucial for simulation, control, and motion analysis. For example, joint torque, which is a function of geometric and dynamic parameters, is a critical variable that heavily impacts the performance of model-based control, or that can motivate a clinical decision after a biomechanical analysis. Fortunately, these models can be identified using extensiveworks from literature. However, for a non-expert, building an identification model and designing an experimentation plan,which should not require long hours and/or lead to poor results, is not a trivial task, especially for anthropometric structuressuch as humanoids or humans that need frequent update. In this work, we propose a unified framework for geometric calibration and dynamic identification in the form of a Python open-source toolbox. Besides identification model building and data processing, the toolbox can automatically generate exciting postures and motions to minimize the experimental burden from the robot, measurements, and environment description.The possibilities of this toolbox are exemplified with several datasets of human, humanoid, and serial robots."
+  description: "This paper introduces FIGAROH, a Python toolbox for geometric calibration and dynamic identification of robots and humans that automates model building, data processing, and optimal trajectory generation."
   project_page: https://thanhndv212.github.io/figaroh-plus-webpage/
   pdf: https://ieeexplore.ieee.org/document/10375232
   github: thanhndv212/figaroh-plus
@@ -46,7 +46,7 @@
 - id: TSA
   title: "Non-cylindrical wrapping rods and compliant adapters for multi-mode twisting string actuation"
   venue: International Journal of Mechanisms and Robotic Systems 5 (1-2), 93-110
-  description: "In this paper, improvements of the basic twisting string actuation commonly found in the literature are demonstrated based on the addition of two types of passive elements in order to optimise mechanical efficiency. First, the motion speed is increased with non-cylindrical rigid wrapping. Secondly, passive compliant load adjusters are added to improve the overall mechanical advantage of the transmission in reaction to varying loads. A mathematical model of the new system is first detailed in the paper and provides numerical simulations subsequently validated with experimental results. The impact on the important characteristics of the transmission of the design parameters are shown in details and the simulations highlight several improvements of our proposed design compared to existing twisting wire systems. Finally, this novel transmission with a compliant adjuster is used to drive an underactuated robotic finger to demonstrate its effectiveness."
+  description: "This paper improves twisting string actuation efficiency through non-cylindrical wrapping rods and compliant adapters, demonstrating enhanced mechanical advantage and speed for robotic applications."
   project_page: https://www.inderscienceonline.com/doi/abs/10.1504/IJMRS.2021.115156
   pdf: https://www.inderscienceonline.com/doi/abs/10.1504/IJMRS.2021.115156
   github: 
