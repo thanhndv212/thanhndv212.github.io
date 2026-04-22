@@ -31,6 +31,20 @@ layout: null
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="{{ '/js/index.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector('.email-copy').addEventListener('click', function(e) {
+        e.preventDefault();
+        var email = this.dataset.email;
+        navigator.clipboard.writeText(email).then(function() {
+          var toast = document.querySelector('.email-toast');
+          toast.textContent = email + ' — Copied!';
+          toast.classList.add('visible');
+          setTimeout(function() { toast.classList.remove('visible'); }, 2000);
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -41,6 +55,10 @@ layout: null
       <!-- <span class="topbar-name">{{ site.name }}</span> -->
       <div class="topbar-links">
         <a href="{{ site.url }}/assets/pdf/resume-en-full-4-2026.pdf" title="CV"><i class="fas fa-file-alt"></i><span>CV</span></a>
+        <span class="email-wrap">
+          <a href="javascript:void(0)" class="email-copy" data-email="{{ site.email }}" title="{{ site.email }}"><i class="fas fa-envelope"></i><span>Email</span></a>
+          <span class="email-toast"></span>
+        </span>
         <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>
         <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a>
         <a href="https://linkedin.com/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
