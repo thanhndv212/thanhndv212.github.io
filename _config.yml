@@ -20,23 +20,19 @@
 
 title: Thanh D. V. Nguyen
 name: Thanh D. V. Nguyen
-position: PhD candidate
+position: Research Engineer | Ph.D
 email: thanhndv212@gmail.com
 description: >-
-  I am a robotics researcher based in Paris, France. I obtained a Ph.D in Dec, 2024 at [LAAS-CNRS](https://www.laas.fr/en/home), where I was advised by <a href="https://www.laas.fr/en/annuaire/132">Florent Lamiraux</a> and <a href="https://www.laas.fr/en/annuaire/398">Vincent Bonnet</a> and supported by CIFRE contract 2021-2024 (by [TOWARD](https://toward.fr/) - now [Pal France](https://pal-robotics.com/)).
-  My research interests include:
-  - Robot modeling
-  - System identification
-  - Robot control
-  - Reinforcement learning
-  - DIY robotics
-  I occasionally write about my research and personal projects on this blog. 
+  I am a robotics researcher based in Paris, France. I obtained a Ph.D in Robotics in Dec, 2024 at [LAAS-CNRS](https://www.laas.fr/en/home), supervised by <a href="https://www.laas.fr/en/annuaire/132">Florent Lamiraux</a> and <a href="https://www.laas.fr/en/annuaire/398">Vincent Bonnet</a> and supported by CIFRE contract 2021-2024 (by [Pal Robotics](https://pal-robotics.com/)).
+
+  Lately, my research focuses on robot learning and control, with a particular interest in sim-to-real transfer and multi-agent systems. I am passionate about developing algorithms that enable robots to learn complex manipulation tasks in dynamic environments. My work involves a combination of modeling, system identification, and perception/planning/control integration to bridge the gap between simulation and reality. I also enjoy tinkering with hardware and software through my personal projects.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thanhndv212.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: in/thanh-nguyen-55b626117/
 github_username: thanhndv212
 google_scholar: J8DBBA4AAAAJ
-google_analytics: 
+google_analytics: G-XXXXXXXXXX  # Replace with your actual Measurement ID
 
 # Build settings
 theme: minima
