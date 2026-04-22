@@ -52,6 +52,14 @@ body {
             &:hover { color: #111; }
 
             i { font-size: 1rem; }
+
+            @media (max-width: 480px) {
+                span { display: none; }
+            }
+        }
+
+        @media (max-width: 480px) {
+            gap: 1rem;
         }
     }
 }
@@ -68,6 +76,8 @@ body {
 
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem 1rem;
     }
 }
 
@@ -77,6 +87,15 @@ body {
         position: sticky;
         top: 68px;
         text-align: center;
+
+        @media (max-width: 768px) {
+            position: static;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+            text-align: left;
+        }
     }
 
     .sidebar-portrait {
@@ -92,6 +111,20 @@ body {
             height: 100%;
             object-fit: cover;
             object-position: top;
+        }
+
+        @media (max-width: 768px) {
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+            margin: 0;
+        }
+    }
+
+    .sidebar-text {
+        @media (max-width: 768px) {
+            flex: 1;
+            min-width: 0;
         }
     }
 
@@ -109,6 +142,10 @@ body {
         margin: 0.2rem 0 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.04em;
+
+        @media (max-width: 768px) {
+            margin-bottom: 0;
+        }
     }
 
     .sidebar-bio {
@@ -123,6 +160,10 @@ body {
         ul {
             padding-left: 1.2em;
             margin: 0.25em 0;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
         }
     }
 
@@ -189,6 +230,13 @@ body {
 
     &:hover {
         box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+
+        .pub-image { display: none; }
     }
 
     .pub-image {
@@ -319,6 +367,13 @@ body {
     transition: box-shadow 0.2s;
 
     &:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+
+        .blog-card-image { display: none; }
+    }
 
     .blog-card-image {
         border-radius: 6px;
