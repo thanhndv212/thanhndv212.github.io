@@ -140,7 +140,9 @@ layout: null
             </details>
             <div class="pub-links">
               <a class="pub-link" href="{{ publication.project_page }}"><i class="fas fa-globe"></i> Project Page</a>
+              {% if publication.pdf %}
               <a class="pub-link" href="{{ publication.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>
+              {% endif %}
               {% if publication.arxiv %}
               <a class="pub-link" href="https://arxiv.org/abs/{{ publication.arxiv }}"><i class="ai ai-arxiv"></i> arXiv</a>
               {% endif %}
@@ -153,7 +155,7 @@ layout: null
         {% endfor %}
       </section>
 
-      <!-- Blog Posts -->
+      <!-- Blog Posts
       <section class="content-section">
         <h2 class="section-title">Recent Blog Posts</h2>
 
@@ -177,7 +179,7 @@ layout: null
         <div class="view-all">
           <a href="/blog">View all posts <i class="fas fa-arrow-right"></i></a>
         </div>
-      </section>
+      </section> -->
 
     </main>
   </div><!-- end page-layout -->

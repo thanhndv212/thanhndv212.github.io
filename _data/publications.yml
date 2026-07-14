@@ -1,3 +1,14 @@
+- id: soarm-ws
+  title: "soarm-ws: A full-stack workspace for SO-ARM100 manipulator research"
+  venue:
+  description: "An ongoing, modular workspace for the SO-ARM100 manipulator: a thin umbrella repo over independently-versioned packages for servo/IMU transport, teleoperation, camera calibration, imitation learning (LeRobot), and reinforcement learning (mjlab/MuJoCo). Each package ships as its own git submodule with its own GitHub remote, so hardware transport, teleop, dataset recording, and simulation/RL training can evolve independently. Includes a full hardware build guide (3D-printed SO-ARM100, FEETECH servos, IMU/camera sensing) alongside the software stack."
+  project_page: https://thanhndv212.github.io/soarm-ws-webpage/
+  pdf:
+  github: thanhndv212/soarm-ws
+  image: soarm100.png
+  image_mouseover:
+  authors:
+    - thanhndv212
 - id: figaroh
   title: "Humanoid Robot Whole-body Geometric Calibration with Embedded Sensors and a Single Plane"
   venue: 
