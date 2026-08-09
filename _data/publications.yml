@@ -1,3 +1,14 @@
+- id: walka-rl
+  title: "Walka RL Mjlab: Bipedal locomotion via reinforcement learning"
+  venue:
+  description: "An end-to-end reinforcement learning project for bipedal locomotion on the Walka humanoid robot using MuJoCo and mjlab. Implements two tasks (Walka-Flat and Walka-Rough) with RSL-RL PPO, terrain curriculum learning, and sixteen-term reward shaping. Trained on rented vast.ai RTX 4090 GPUs with documented vast.ai workflow, kinematic structure analysis, and reward design. Includes flat-terrain tracking, rough-terrain navigation (stairs, slopes, bumps, waves), get-up task, and keyboard-steered playtesting."
+  project_page: https://thanhndv212.github.io/walka-rl-webpage/
+  pdf:
+  github: thanhndv212/walka_rl_mjlab
+  image: walka_flat_trained.gif
+  image_mouseover:
+  authors:
+    - thanhndv212
 - id: soarm-ws
   title: "soarm-ws: A full-stack workspace for SO-ARM100 manipulator research"
   venue:
