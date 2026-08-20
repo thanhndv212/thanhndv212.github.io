@@ -1,23 +1,62 @@
-# thanhndv212.github.io
+<div align="center">
 
-Personal academic webpage of Thanh D. V. Nguyen — robotics researcher based in Paris, France.
+# Thanh D. V. Nguyen (`thanhndv212`)
 
-- Built with Jekyll + GitHub Pages, styled with Bulma CSS
-- Update `_config.yml` for site-wide settings (name, bio, social links)
-- Update `_data/publications.yml` and `_data/authors.yml` to manage publications
-- Add blog posts to `_posts/` (format: `YYYY-MM-DD-title.md`)
-- Originally based on [keunhong's template](https://github.com/keunhong/keunhong.github.io)
+Robotics research and engineering focused on **manipulation**, **system identification**, **calibration**, and **learning-based control**.
 
-## Local development
+[![GitHub followers](https://img.shields.io/github/followers/thanhndv212?style=for-the-badge&logo=github&label=Followers)](https://github.com/thanhndv212)
+[![Website](https://img.shields.io/badge/Website-thanhndv212.github.io-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://thanhndv212.github.io)
+[![Profile views](https://komarev.com/ghpvc/?username=thanhndv212&style=for-the-badge)](https://github.com/thanhndv212)
 
-```bash
-bundle install
-bundle exec jekyll build
-bundle exec jekyll serve
-```
+</div>
 
-The site will be available at `http://127.0.0.1:4000/`.
+---
 
-# License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<div align="center">
 
+## Selected Projects
+
+</div>
+
+- [**FIGAROH-PLUS**](https://github.com/thanhndv212/figaroh-plus) — a system identification framework for robots
+- [**FIGAROH examples**](https://github.com/thanhndv212/figaroh-examples) — tutorials and examples for FIGAROH-PLUS
+- [**Walka RL MJLab**](https://github.com/thanhndv212/walka_rl_mjlab) — reinforcement learning for bipedal locomotion in MuJoCo
+- [**SOARM**](https://github.com/thanhndv212/soarm) — robotics project
+- [**SOARM-WS**](https://github.com/thanhndv212/soarm-ws) — manipulation research project covering classical approaches and recent learning-based methods on the 3D-printed SOARM-101
+- [**drones-sim**](https://github.com/thanhndv212/drones-sim) — simple quadcopter simulation
+
+---
+
+<div align="center">
+
+## Research Interests
+
+</div>
+
+- Manipulation
+- Humanoid robotics
+- Robot calibration
+- System identification
+- Reinforcement learning
+- Sim-to-real transfer
+
+---
+
+<div align="center">
+
+## GitHub Stats
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=thanhndv212&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats for thanhndv212" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhndv212&layout=compact&theme=transparent&hide_border=true" alt="Top languages for thanhndv212" />
+
+</div>
+
+---
+
+<div align="center">
+
+## Links
+
+[GitHub](https://github.com/thanhndv212) • [Website](https://thanhndv212.github.io)
+
+</div>
