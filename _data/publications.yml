@@ -1,3 +1,14 @@
+- id: long-tamp
+  title: "LongTAMP: Long-horizon task and motion planning for multi-arm manipulation"
+  venue:
+  description: "An open-source Python library that turns declarative, long-horizon manipulation goals into collision-aware HPP paths and restartable BehaviorTree.CPP missions. LongTAMP decomposes multi-arm, multi-object tasks into phase-local constraint graphs and provides target generation, bounded recovery, structured logging, checkpointing, and replay. Its screw-assembly reference demonstrates the complete planning pipeline with two UR10 arms, four plates, a drill, and a fixture."
+  project_page: https://thanhndv212.github.io/long-tamp-webpage/
+  pdf:
+  github: thanhndv212/long-tamp
+  image: long_tamp_screw_assembly.gif
+  image_mouseover:
+  authors:
+    - thanhndv212
 - id: walka-rl
   title: "Walka RL Mjlab: Bipedal locomotion via reinforcement learning"
   venue:

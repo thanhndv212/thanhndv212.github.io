@@ -22,6 +22,7 @@ Robotics research and engineering focused on **manipulation**, **system identifi
 - [**FIGAROH examples**](https://github.com/thanhndv212/figaroh-examples) — tutorials and examples for FIGAROH-PLUS
 - [**Walka RL MJLab**](https://github.com/thanhndv212/walka_rl_mjlab) — reinforcement learning for bipedal locomotion in MuJoCo
 - [**SOARM-WS**](https://github.com/thanhndv212/soarm-ws) — manipulation research project covering classical approaches and recent learning-based methods on the 3D-printed SOARM-101
+- [**LongTAMP**](https://github.com/thanhndv212/long-tamp) — long-horizon task and motion planning for multi-arm manipulation
 - [**drones-sim**](https://github.com/thanhndv212/drones-sim) — simple quadcopter simulation
 
 ---
